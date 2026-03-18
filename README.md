@@ -40,6 +40,15 @@ ai-test-project/
 ---
 
 ## 三、运行方式
+    使用虚拟环境：
+    python3 -m venv venv
+    激活虚拟环境：
+    source venv/bin/activate
+    安装openai：
+    pip install openai requests pytest
+    安装dotenv：
+    pip3 install python-dotenv --break-system-packages
+
 ### 1. 使用 run_tests.py（推荐演示 & 自动生成 JSON 报告）
 ```
     python3 run_tests.py
