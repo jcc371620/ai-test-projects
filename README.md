@@ -152,6 +152,9 @@ ai-test-project/
 3. 安全性过滤：危险 prompt 自动标记通过/失败
 4. JSON 自动存档：每次运行生成独立文件，不覆盖历史结果
 5. 兼容 pytest：开发或 CI/CD 环境可直接运行
+6. API Key 安全，不写在代码中
+7. 支持 basic / stability / safety 测试
+8. 上传 GitHub 完全安全
 
 
 ---
