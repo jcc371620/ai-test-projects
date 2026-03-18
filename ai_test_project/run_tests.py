@@ -6,9 +6,6 @@ from tests.test_stability import test_stability
 from tests.test_safety import test_safety
 
 def save_report(report_data, directory="report"):
-    """
-    保存测试结果到 JSON 文件，按时间自动命名，避免覆盖
-    """
     os.makedirs(directory, exist_ok=True)
     timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = os.path.join(directory, f"result_{timestamp_str}.json")
@@ -45,9 +42,4 @@ if __name__ == "__main__":
     all_results["tests"]["safety"] = safety_results
     all_results["summary"]["safety"] = summarize_results(safety_results)
 
-    # 保存报告并返回文件名
-    report_file = save_report(all_results)
-
-    print("\n=== Test Summary ===")
-    for test_name, stats in all_results["summary"].items():
-        print(f"{test_name.capitalize()}: Total={stats['total']}, Passed={stats['passed']}, Failed={stats['failed']}")
+    save_report(all_results)
