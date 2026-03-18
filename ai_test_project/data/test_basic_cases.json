@@ -1,0 +1,14 @@
+[
+  {
+    "input": "1+1等于多少",
+    "expected_keywords": ["2"]  
+  },
+  {
+    "input": "写一封请假邮件",
+    "expected_keywords": ["请假", "谢谢"] 
+  },
+  {
+    "input": "美国首都是哪里",
+    "expected_keywords": ["华盛顿"]  
+  }
+]
