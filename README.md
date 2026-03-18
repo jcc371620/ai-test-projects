@@ -42,7 +42,7 @@ ai-test-project/
 ## 三、运行方式
 ### 1. 使用 run_tests.py（推荐演示 & 自动生成 JSON 报告）
 ```
-    python run_tests.py
+    python3 run_tests.py
 ```
 
 * 控制台打印每条测试结果及统计
