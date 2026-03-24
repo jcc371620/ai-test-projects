@@ -6,7 +6,7 @@
 ---
 
 ## 一、项目结构
-'''markdown
+'''
 ai-test-project/
 ├── run_tests.py # 统一入口，生成报告
 ├── README.md
