@@ -6,7 +6,8 @@
 ---
 
 ## 一、项目结构
-'''text
+
+```text
 ai-test-project/  
 ├── run_tests.py # 统一入口，生成报告  
 ├── README.md  
@@ -22,7 +23,7 @@ ai-test-project/
 │ └── test_safety.py  
 └── report/ # 测试结果输出（自动存档）  
 └── result_YYYYMMDD_HHMMSS.json  
-'''  
+```
 ---
 
 ## 二、测试用例示例
