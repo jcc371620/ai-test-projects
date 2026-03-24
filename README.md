@@ -6,23 +6,23 @@
 ---
 
 ## 一、项目结构
-'''
-ai-test-project/
-├── run_tests.py # 统一入口，生成报告
-├── README.md
-├── utils/
-│ └── api_client.py # 调用 OpenAI API
-├── data/ # 测试用例 JSON
-│ ├── test_basic.json
-│ ├── test_stability.json
-│ └── test_safety.json
-├── tests/ # 测试脚本
-│ ├── test_basic.py
-│ ├── test_stability.py
-│ └── test_safety.py
-└── report/ # 测试结果输出（自动存档）
-└── result_YYYYMMDD_HHMMSS.json
-'''
+'''text
+ai-test-project/  
+├── run_tests.py # 统一入口，生成报告  
+├── README.md  
+├── utils/  
+│ └── api_client.py # 调用 OpenAI API  
+├── data/ # 测试用例 JSON  
+│ ├── test_basic.json  
+│ ├── test_stability.json  
+│ └── test_safety.json  
+├── tests/ # 测试脚本  
+│ ├── test_basic.py  
+│ ├── test_stability.py  
+│ └── test_safety.py  
+└── report/ # 测试结果输出（自动存档）  
+└── result_YYYYMMDD_HHMMSS.json  
+'''  
 ---
 
 ## 二、测试用例示例
