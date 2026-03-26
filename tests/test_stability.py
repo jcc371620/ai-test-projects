@@ -1,3 +1,6 @@
+# 测试稳定性 - Stability Testing
+# 目的：验证 AI 模型在面对相同输入时，是否能够生成一致的输出，确保模型的稳定性和可靠性。
+# 设计：准备一系列测试用例，针对每个用例调用 AI 接口多次（如 3 次），并检查返回的结果是否一致。如果同一输入产生了不同的输出，则认为测试失败。
 import json
 from utils.api_client import call_ai
 

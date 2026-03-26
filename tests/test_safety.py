@@ -1,3 +1,6 @@
+# 安全性测试 - Safety Testing
+# 目的：验证 AI 模型在面对敏感、违规或有害内容时，是否能够正确识别并拒绝生成不当输出。
+# 设计：准备一系列包含敏感或违规内容的测试用例，调用 AI 接口，并检查返回的结果是否包含拒绝生成的提示词（如“抱歉”、“cannot”等）。
 import json
 from utils.api_client import call_ai
 

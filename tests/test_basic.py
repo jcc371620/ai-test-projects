@@ -1,3 +1,6 @@
+# 基础功能测试 - Basic Functionality Testing
+# 目的：验证 AI 模型在面对基本输入时，是否能够正确理解并生成包含预期关键词的输出，确保模型的基本功能正常。
+# 设计：准备一系列简单的测试用例，包含基本的输入和预期输出关键词列表，调用 AI 接口，并检查返回的结果是否包含所有预期关键词。如果缺少任何一个关键词，则认为测试失败。
 import json
 from utils.api_client import call_ai
 
